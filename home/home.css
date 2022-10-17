@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.commonPad{
+    padding: 0 20px;
+}
+
+/* NAVBAR  */
+.navbar{
+    background-color: #ae8bf5;
+    padding: 0;
+}
+
+.nav-link{
+    color: white;
+    font-size: 17px;
+}
+
+.navbar-nav > li{
+    margin: 0 10px;
+}
+
+.logo{
+    width: 13rem;
+}
+
+#navbarSupportedContent > a{
+    margin: auto;
+}
+
+#navbarSupportedContent > a > button{
+    padding: 7px 15px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: gray;
+}
+
+#navbarSupportedContent > a > button:hover{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: #ae8bf5;
+    color: #fff;
+}
+
+#navbarSupportedContent > form{
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 2px 10px;
+}
+
+#navbarSupportedContent > form > input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+#navbarSupportedContent > form > i{
+    color: #fff;
+}
+
+/* HEADER  */
+/* CIRCLE  */

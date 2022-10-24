@@ -1,3 +1,15 @@
+// NAVBAR 
+var navBar = document.querySelector("nav");
+window.onscroll = function (){
+    var top = window.scrollY;
+    console.log(top)
+    if(top > 100){
+        navBar.style="background: url('img/bg3.jpg'); transition: 0.5s";
+    }else{
+        navBar.style="background: transperent; transition: 0.5s";
+    }
+}
+
 // EARTH 
 
 let circle = document.querySelector(".circle");

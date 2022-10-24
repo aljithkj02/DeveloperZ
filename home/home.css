@@ -48,7 +48,7 @@ html{
 
 .logo{
     width: 13rem;
-    background-color: white;
+    /* background-color: white; */
 }
 
 #navbarSupportedContent > a{
@@ -422,6 +422,12 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 
+#feedBack .container>div:first-child{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+
 #feedBack .container>div:last-child{
     display: flex;
     justify-content: center;
@@ -430,9 +436,10 @@ html{
     padding: 20px;
     width: 100%;
     background-color: #001923;
+    backdrop-filter: blur(5%);
 }
 
-/* #feedBack .container>div:last-child::before{
+#feedBack .container>div:last-child::before{
     content: "";
     position: absolute;
     width: 300px;
@@ -450,7 +457,7 @@ html{
     background: linear-gradient(#2196f3, #83d3ff);
     border-radius: 50%;
     transform: translate(420px, 120px);
-} */
+}
 
 #feedBack .parentDiv{
     position: relative;
@@ -636,8 +643,7 @@ footer .containerDiv .rows .cols h4{
 }
 
 .footerLogo{
-    width: 80px;
-    background-color: #fff;
+    width: 60%;
     margin-bottom: 30px;
 }
 

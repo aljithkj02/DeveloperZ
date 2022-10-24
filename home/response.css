@@ -1,8 +1,7 @@
 @media only screen and (min-width: 664px) and (max-width: 1000px){
     /* NAVBAR  */
     .logo{
-        width: 10rem;
-        background-color: white;
+        width: 13rem;
     }
 
     #navbarSupportedContent > form{
@@ -37,6 +36,14 @@
         color: #777;
         z-index: 1;
         transition: 0.5s;
+    }
+
+    #feedBack .container>div:last-child::before{
+        display: none;
+    }
+    
+    #feedBack .container>div:last-child::after{
+        display: none;
     }
     
 
@@ -79,8 +86,7 @@
 
     /* NAVBAR  */
     .logo{
-        width: 8rem;
-        background-color: white;
+        width: 10rem;
     }
 
     #navbarSupportedContent > form{
@@ -132,6 +138,14 @@
 
     #feedBack .parentDiv{
         padding: 30px;
+    }
+
+    #feedBack .container>div:last-child::before{
+        display: none;
+    }
+    
+    #feedBack .container>div:last-child::after{
+        display: none;
     }
 
     /* FOOTER  */

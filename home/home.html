@@ -7,20 +7,21 @@
         <script src="https://kit.fontawesome.com/dcce0f47df.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
         <link href="home.css" rel="stylesheet">
+        <link href="response.css" rel="stylesheet">
     </head>
     <body>
     <!-- NAVBAR -->
-    <section>
-        <nav class="navbar navbar-expand-lg">
+    <section id="nav">
+        <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img class="logo" src="img/logo2.png" alt=""></a>
+              <a class="navbar-brand" href="#nav"><img class="logo" src="img/logoo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="#nav">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Road Map</a>
@@ -42,7 +43,7 @@
                     </ul>
                   </li>
                 </ul>
-                <a href="#"><button>Sign In</button></a>
+                <a href="../login/login.html"><button>Sign In</button></a>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <i class="fa-solid fa-magnifying-glass"></i>
@@ -52,6 +53,14 @@
           </nav>
     </section>
  
+    <!-- MED HEADER  -->
+    <section id="midHeader">
+      <div class="container">
+        <h1>Welcome to Developerz</h1>
+        <p>"You can start a dev blog in just a few seconds using Hashnode and then you can move that to your own domain if you get one later. They will even help distribute your articles on their platform. By far the best place to create a blog, imho."</p>
+      </div>
+    </section>
+
     <!-- HEADER  -->
     <section id="earthSection">
       <div>
@@ -100,16 +109,268 @@
     </section>
 
     <!-- FEATURES  -->
-    <section id="features">
+    <section id="features" class="commonPad">
       <div>
-        <h1>HOSTING IS EVEN BETTER WITH ALL THESE</h1>
-        <h1>FREE FEATURES</h1>
-        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        <h1>Our Services</h1>
+      </div>
+      <div id="cardsDiv">
+
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <!-- <h2>01</h2> -->
+              <img src="img/roadmap.png" alt="roadmap">
+              <h3>Road Map</h3>
+              <p>Robust, completely custom developed web apps, Allowing your business for growth and expansion.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <!-- <h2>02</h2> -->
+              <img src="img/library.png" alt="library">
+              <h3>Library</h3>
+              <p>Robust, completely custom developed web apps, Allowing your business for growth and expansion.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <!-- <h2>03</h2> -->
+              <img src="img/tech.png" alt="tech news">
+              <h3>Tech News</h3>
+              <p>Robust, completely custom developed web apps, Allowing your business for growth and expansion.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <!-- <h2>04</h2> -->
+              <img src="img/communication.png" alt="communication">
+              <h3>Communication</h3>
+              <p>Robust, completely custom developed web apps, Allowing your business for growth and expansion.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <!-- <h2>05</h2> -->
+              <img src="img/logic.png" alt="logic">
+              <h3>Logical Reasoning</h3>
+              <p>Robust, completely custom developed web apps, Allowing your business for growth and expansion.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <!-- <h2>06</h2> -->
+              <img src="img/entertainment.png" alt="entertainment">
+              <h3>Entertainment</h3>
+              <p>Robust, completely custom developed web apps, Allowing your business for growth and expansion.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
+    <!-- ENTERTAINMENT  -->
+    <section id="entertain">
+      <h1>Entertainment</h1>
+
+      <div id="entertainment">
+        <div class="container">
+
+          <div class="cards">
+            <h2>Movies</h2>
+            <div class="content">
+              <h2>01</h2>
+              <p>Microservices for the Frontend Microservices are a popular way to build small, autonomous teams that can work independently.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+  
+          <div class="cards">
+            <h2>Wallpaper</h2>
+            <div class="content">
+              <h2>02</h2>
+              <p>Microservices for the Frontend Microservices are a popular way to build small, autonomous teams that can work independently.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+  
+          <div class="cards">
+            <h2>Stories</h2>
+            <div class="content">
+              <h2>03</h2>
+              <p>Microservices for the Frontend Microservices are a popular way to build small, autonomous teams that can work independently.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+  
+          <div class="cards">
+            <h2>Stories</h2>
+            <div class="content">
+              <h2>04</h2>
+              <p>Microservices for the Frontend Microservices are a popular way to build small, autonomous teams that can work independently.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+  
+          <div class="cards">
+            <h2>Stories</h2>
+            <div class="content">
+              <h2>05</h2>
+              <p>Microservices for the Frontend Microservices are a popular way to build small, autonomous teams that can work independently.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+  
+          <div class="cards">
+            <h2>Stories</h2>
+            <div class="content">
+              <h2>06</h2>
+              <!-- <h3>Card One</h3> -->
+              <p>Microservices for the Frontend Microservices are a popular way to build small, autonomous teams that can work independently.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+      
+      
+      
+    </section>
+    
+    <!-- FEEDBACK  -->
+    <section id="feedBack">
+      <div class="container">
+
+        <div>
+          <h2>Feedback</h2>
+        </div>
+
+        <div>
+          <div class="parentDiv">
+            <h2>Write how to improve this page</h2>
+
+            <div class="row100">
+
+              <div class="col">
+                <div class="inputBox">
+                  <input type="text" name="" required="required">
+                  <span class="text">Name</span>
+                  <span class="line"></span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="inputBox">
+                  <input type="email" name="" required="required">
+                  <span class="text">Email</span>
+                  <span class="line"></span>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="row100">
+              <div class="col">
+                <div class="inputBox textArea">
+                  <textarea  required="required"></textarea>
+                  <span class="text">Type your feedback here...</span>
+                  <span class="line"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="row100">
+              <div class="col">
+                <input type="submit" name="" value="Send">
+              </div>
+            </div>
+          
+          </div>   
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER  -->
+    <footer>
+      <div class="containerDiv">
+        <div class="rows">
+
+          <div class="cols">
+            <img src="img/logoo.png" alt="Footer Logo" class="footerLogo">
+            <p>Robust, completely custom developed web apps, Allowing your business for growth and expansion.</p>
+          </div>
+          <div class="cols">
+            <h4>Office <div class="underLine"><span></span></div></h4>
+            <p>custom developed web apps</p>
+            <p>custom developed web apps</p>
+            <p class="email_id">developerz@gmail.com</p>
+            <p>+91 - 7345959320</p>
+          </div>
+          <div class="cols">
+            <h4>Links <div class="underLine"><span></span></div></h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="cols">
+            <h4>News Letter <div class="underLine"><span></span></div></h4>
+            <form>
+              <i class="fa-regular fa-envelope"></i>
+              <input type="email" placeholder="enter your email id" required>
+              <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+            <div class="socialIcons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-telegram"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+
+        </div>
+        <hr>
+        <p class="copyRight">DeveloperZ ©2022 - All Right Reserved</p>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="home.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".cards"),{
+      max: 25,
+      speed: 400,
+      glare: true,
+      "max-glare": 1
+      });
+    </script>
     </body>
 </html>

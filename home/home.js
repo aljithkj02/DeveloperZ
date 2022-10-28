@@ -30,6 +30,28 @@ nav.onmousemove = function (e) {
     earth.style.backgroundPositionX = y + "px";
 }
 
+// FEATURES
+
+let roadMapBox = document.getElementById("roadMapBox");
+roadMapBox.addEventListener("click", function(){
+    window.location.href="../../services/roadmap/roadmap.html";
+});
+
+let libraryBox = document.getElementById("libraryBox");
+libraryBox.addEventListener("click", function(){
+    window.location.href="../../services/library/library.html";
+});
+
+let communication = document.getElementById("communication");
+communication.addEventListener("click", function(){
+    window.location.href="../../services/communication/communication.html";
+});
+
 // ENTERTAINMENT 
+
+let movies = document.getElementById("movies");
+movies.addEventListener("click", function(){
+    window.location.href="../../entertainment/movie/movie.html";
+});
 
 

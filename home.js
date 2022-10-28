@@ -34,24 +34,24 @@ nav.onmousemove = function (e) {
 
 let roadMapBox = document.getElementById("roadMapBox");
 roadMapBox.addEventListener("click", function(){
-    window.location.href="../../services/roadmap/roadmap.html";
+    window.location.href="services/roadmap/roadmap.html";
 });
 
 let libraryBox = document.getElementById("libraryBox");
 libraryBox.addEventListener("click", function(){
-    window.location.href="../../services/library/library.html";
+    window.location.href="services/library/library.html";
 });
 
 let communication = document.getElementById("communication");
 communication.addEventListener("click", function(){
-    window.location.href="../../services/communication/communication.html";
+    window.location.href="services/communication/communication.html";
 });
 
 // ENTERTAINMENT 
 
 let movies = document.getElementById("movies");
 movies.addEventListener("click", function(){
-    window.location.href="../../entertainment/movie/movie.html";
+    window.location.href="entertainment/movie/movie.html";
 });
 
 

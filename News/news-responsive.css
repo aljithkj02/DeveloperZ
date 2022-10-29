@@ -1,0 +1,270 @@
+@media only screen and (min-width: 664px) and (max-width: 1000px){
+  
+
+    /* tech news section  */
+    .news-titles>h1{
+        font-size: 30px;
+    }
+
+    .news-titles>p{
+        font-size: 16px;
+    }
+
+    #dark-mode-btn{
+        top: 87px;
+        right: 72px;
+        width: 100px;
+        height: 25px;
+        font-size: 13px;
+    }
+    
+    .reco-news-head{
+        left: 59px;
+        font-size: 30px;
+    }
+
+    .recommended-news-container{
+        grid-template-columns: auto auto;
+    }
+
+    /* computer programming  articles  */
+
+    .cp-articles{
+        top: 905px;
+    }
+
+    .cp-heading > h1{
+        font-size: 30px;
+    }
+    .cp-heading > h4{
+        font-size: 16px;
+    }
+
+    .news-dsa-container > h2{
+        font-size: 25px;    
+    }
+
+    /* web development  */
+
+    .news-web-development{
+        height: 1000px;
+    }
+
+    .news-web-container > h1{
+        font-size: 35px;
+    }
+
+
+    /* front end technology  */
+
+  
+
+    .front-end-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 440px
+    }
+
+
+    /* backend language  */
+
+    .back-end-heading{
+        font-size: 30px;
+        top: 90px;
+        position: relative;
+
+    }
+
+    .back-end-container{
+        top: 100px;
+        grid-template-columns: auto auto;
+        
+    }
+
+    .web-dev-framework-heading{
+        top: 60px;
+        position: relative;
+    }
+
+
+    .news-framework{
+        top: 63px;
+        grid-template-columns: auto auto;
+    }
+
+
+    /* footer  */
+
+    footer .containerDiv{
+        bottom: unset;
+        top: 1700px;
+    }
+
+    footer .containerDiv .rows .cols{
+        flex-basis: 50%;
+    }
+    
+    footer .containerDiv .rows .cols:nth-child(2),
+    footer .containerDiv .rows .cols:nth-child(3){
+        flex-basis: 50%;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 0px)  and (max-width: 663px){
+   
+ 
+    /* navbar  */
+    .logo{
+        width: 13rem;
+    }
+
+    #navbarSupportedContent > form{
+        padding: 2px 10px;
+        margin: 25px 0;
+    }
+
+    .navbar-nav > li{
+        margin: 15px 10px;
+    }
+
+
+
+    /* tech news section  */
+    .news-title{
+        width: 90%;
+    }
+    
+    
+    .news-titles>h1{
+        font-size: 30px;
+        width: 85%;
+        text-align: center; 
+    }
+
+    .news-titles>p{
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        right: 23px;
+    }
+
+    #dark-mode-btn{
+        top: 53px;
+        right: 139px;
+        width: 100px;
+        height: 25px;
+        font-size: 13px;
+    }
+    
+    .reco-news-head{
+        left: 10px;
+        font-size: 27px;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+
+    .recommended-news-container{
+        grid-template-columns: auto;
+        transform: translate(-54%, 0);
+    }
+
+
+
+    /* computer programming  articles  */
+
+    .news-front-end{
+        text-align: center;
+    }
+    
+    .cp-heading{
+        left: -20px;
+    }
+
+    .cp-articles{
+        top: 2463px;
+        position: relative;
+        text-align: center;
+    }
+
+    .cp-heading > h1{
+        font-size: 30px;
+    }
+    .cp-heading > h4{
+        font-size: 16px;
+    }
+
+    .news-dsa-container > h2{
+        font-size: 25px;    
+    }
+
+    .news-carousel-img{
+        height: 201px;
+    }
+
+    /* web development  */
+    .news-web-development{
+        height: 1000px;
+        /* top: 500px; */
+    }
+
+    .news-web-container > h1{
+        font-size: 44px;
+        top: -258px;
+        position: relative;
+    }
+
+
+
+    .front-end-tech-heading {
+        position: relative;
+        top: -220px;
+        text-align: center;
+    }
+
+    .front-end-container{
+        display: grid;
+        grid-template-columns: auto;
+        height: 440px;
+        top: -200px;
+    }
+
+
+
+    .back-end-heading{
+        font-size: 30px;
+        top: 291px;
+        position: relative;
+        text-align: center;
+    }
+
+    
+    .back-end-container{
+        top: 278px;
+        grid-template-columns: auto;
+        
+    }
+
+    .web-dev-framework-heading{
+        top: 300px;
+        position: relative;
+        text-align: center;
+    }
+
+
+    .news-framework{
+        top: 300px;
+        grid-template-columns: auto;
+    }
+
+    footer .containerDiv {
+        bottom: unset;
+        top: 4300px;
+    }
+    
+
+
+}

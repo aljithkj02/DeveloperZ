@@ -115,6 +115,30 @@ html{
     transform: scaleY(0.8);
 }
 
+#road-map > .container-div p{
+    word-spacing: 5px;
+    line-height: 2;
+    font-size: 17px;
+}
+
+#road-map > .container-div li{
+    word-spacing: 5px;
+    margin: 15px 0;
+}
+
+#road-map > .container-div h4{
+    word-spacing: 5px;
+    margin: 30px 0;
+}
+
+hr{
+    margin: 50px 0;
+    /* border: none; */
+    border-radius: 10px;
+    height: 4px;
+    background: black;
+}
+
 
 
 

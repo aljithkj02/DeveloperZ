@@ -52,6 +52,11 @@ teckBox.addEventListener("click", function(){
     window.location.href="News/news.html";
 });
 
+let dsa = document.getElementById("dsa");
+dsa.addEventListener("click", function(){
+    window.location.href="services/dsa/dsa.html";
+});
+
 // ENTERTAINMENT 
 
 let movies = document.getElementById("movies");

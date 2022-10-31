@@ -47,6 +47,11 @@ communication.addEventListener("click", function(){
     window.location.href="services/communication/communication.html";
 });
 
+let dsa = document.getElementById("dsa");
+dsa.addEventListener("click", function(){
+    window.location.href="services/dsa/dsa.html";
+});
+
 // ENTERTAINMENT 
 
 let movies = document.getElementById("movies");

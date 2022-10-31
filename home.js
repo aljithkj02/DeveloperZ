@@ -48,7 +48,6 @@ communication.addEventListener("click", function(){
 });
 
 
-});
 
 let dsa = document.getElementById("dsa");
 dsa.addEventListener("click", function(){

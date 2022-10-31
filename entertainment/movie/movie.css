@@ -345,7 +345,7 @@ footer .containerDiv .underLine span{
 
     #movies-div .container-div > div:nth-child(2) #box-div{
         grid-template-columns: repeat(2, 1fr);
-    }
+    } 
 }
 
 @media only screen and (min-width: 0px) and (max-width: 663px){
@@ -353,6 +353,14 @@ footer .containerDiv .underLine span{
     #movies-div .container-div > div:nth-child(1){
         width: 100%;
         margin: auto;
+    }
+
+    #movies-div{
+        padding: 0;
+    }
+
+    #movies-div .container-div > div:nth-child(1){
+        padding: 0 20px;
     }
 
     #movies-div .container-div > div:nth-child(1) > h1{

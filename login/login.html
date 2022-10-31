@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Login Page</title>
+        <title>Sign In</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/dcce0f47df.js" crossorigin="anonymous"></script>
         <link href="login.css" rel="stylesheet">
     </head>
     <body>
         
         <section>
-            <div class="color"></div>
-            <div class="color"></div>
-            <div class="color"></div>  
-            
-            <div class="box">
+            <div class="img-box">
+                <img src="https://img.freepik.com/premium-vector/create-new-password-isolated-cartoon-vector-illustrations_107173-21573.jpg?w=2000" alt="img">
+            </div>
 
-                <div class="square" style="--i:0;"></div>
-                <div class="square" style="--i:1;"></div>
-                <div class="square" style="--i:2;"></div>
-                <div class="square" style="--i:3;"></div>
-                <div class="square" style="--i:4;"></div>
+            <div class="content-box">
+                <div class="form-box">
+                    <h2>Sign In</h2>
+                    <form>
+                        <div class="input-box">
+                            <span>Email</span>
+                            <input type="email" name="" value="">
+                        </div>
+                        <div class="input-box">
+                            <span>Password</span>
+                            <input type="password" name="" value="">
+                        </div>
+                        <div class="remember">
+                            <input type="checkbox" name="" value=""><label> Remember Me</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" name="" value="Sign In">
+                        </div>
+                        <div class="input-box">
+                            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                        </div>
+                    </form>
 
-                <div class="container">
-                    <div class="form">
-                        <h2>Login Form</h2>
-                        <form>
-                            <div class="inputBox">
-                                <input type="text" placeholder="Username" required>
-                            </div>
-                            <div class="inputBox">
-                                <input type="password" placeholder="Password" required>
-                            </div>
-                            <div class="inputBox">
-                                <input type="submit" value="Signin">
-                            </div>
-
-                            <p class="forget">Forgot Password ? <a href="#">Click Here</a></p>
-                            <p class="forget">Don't have an account ? <a href="signup.html">Sign Up</a></p>
-                        </form>
-                    </div>
+                    <!-- <h3>Login with Social Media</h3>
+                    <ul class="sci">
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                    </ul> -->
                 </div>
             </div>
         </section>
-        
+            
     </body>
 </html>

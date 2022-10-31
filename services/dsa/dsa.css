@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+.commonPad{
+    padding: 0 20px;
+}
+
+/* NAVBAR  */
+.navbar{
+    background-position: center;
+    background-color: #ae8bf5;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.nav-link{
+    color: white;
+    font-size: 17px;
+}
+
+.navbar-nav > li{
+    margin: 0 10px;
+}
+
+.navbar-nav > li a:hover{
+    color: black;
+}
+
+.navbar-nav > li a:active{
+    color: #ae8bf5;
+}
+
+.logo{
+    width: 13rem;
+    /* background-color: white; */
+}
+
+#navbarSupportedContent > a{
+    margin: auto;
+}
+
+#navbarSupportedContent > a > button{
+    padding: 7px 15px;
+    /* border: 1px solid #fff; */
+    border-radius: 20px;
+    color: black;
+    transition: 0.1s;
+}
+
+#navbarSupportedContent > a > button:hover{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: #ae8bf5;
+    color: #fff;
+}
+
+#navbarSupportedContent > form{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #fff; */
+    padding: 2px 10px;
+}
+
+#navbarSupportedContent > form > input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    /* background-color: transparent; */
+    /* color: #fff; */
+}
+
+/* #navbarSupportedContent > form > i{
+    color: #fff;
+} */
+
+/* DSA  */
+#dsa{
+    margin: 40px 0;
+}
+
+#container-div{
+    width: 80%;
+    margin: auto;
+}
+
+#container-div > h1{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#container-div > div{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#container-div > div img{
+    width: 100%;
+}
+
+#container-div > h2{
+    font-size: 28px;
+    margin: 30px 0 20px;
+}
+
+#container-div > h3{
+    font-size: 24px;
+    margin: 30px 0 20px;
+    color: red;
+}
+
+#container-div > h3~p{
+    color: rgba(0, 0, 0, 0.789);
+}
+
+#container-div p{
+    font-size: 17px;
+    word-spacing: 5px;
+    line-height: 1.7;
+    color: rgb(96, 96, 96);
+}
+
+hr{
+    margin: 50px 0;
+    /* border: none; */
+    border-radius: 10px;
+    height: 4px;
+    background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER  */
+footer{
+    background-color: #eef8ff;
+    margin-top: 30px;
+}
+
+footer .containerDiv{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 10px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+footer .containerDiv .rows{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .containerDiv .rows .cols{
+    flex-basis: 25%;
+    /* padding: 10px; */
+}
+
+footer .containerDiv .rows .cols:nth-child(2),
+footer .containerDiv .rows .cols:nth-child(3){
+    flex-basis: 15%;
+}
+
+footer .containerDiv .rows .cols h4{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email_id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.footerLogo{
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+footer .containerDiv .rows .cols ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer .containerDiv .rows .cols ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .containerDiv .rows .cols ul{
+    padding: 0;
+}
+
+footer form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+footer form .fa-regular{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+footer form input{
+    width: 100%;
+    background-color: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+
+footer form button{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+footer form .fa-solid{
+    font-size: 16px;
+    color: #fff;
+}
+
+footer .socialIcons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background-color: #fff;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+footer .containerDiv hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+footer .containerDiv .copyRight{
+    text-align: center;
+}
+
+footer .containerDiv .underLine{
+    width: 100%;
+    height: 3px;
+    background-color: #767676;
+    border: 3px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    overflow: hidden;
+}
+
+footer .containerDiv .underLine span{
+    width: 15px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100px;
+    }
+}
+
+@media (max-width: 700px){
+    footer .containerDiv{
+        bottom: unset;
+    }
+
+    footer .containerDiv .rows .cols{
+        flex-basis: 100%;
+    }
+    
+    footer .containerDiv .rows .cols:nth-child(2),
+    footer .containerDiv .rows .cols:nth-child(3){
+        flex-basis: 100%;
+    }
+} 
+
+
+
+/* MEDIA QUERY */
+@media only screen and (min-width: 664px) and (max-width: 1000px){
+    #container-div p{
+        font-size: 19px;
+        word-spacing: 5px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 663px){
+    
+    #dsa{
+        margin: 30px 0;
+    }
+    
+    #container-div{
+        width: 95%;
+        margin: auto;
+    }
+    
+    #container-div > h1{
+        font-size: x-large;
+        margin-bottom: 20px;
+    }
+    
+    #container-div > div{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #container-div > div img{
+        width: 100%;
+    }
+    
+    #container-div > h2{
+        font-size: 25px;
+    }
+    
+    #container-div > h3{
+        font-size: 23px;
+    }
+    
+    
+    #container-div p{
+        font-size: 18px;
+        word-spacing: 4px;
+    }
+    
+}

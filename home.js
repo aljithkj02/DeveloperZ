@@ -47,6 +47,11 @@ communication.addEventListener("click", function(){
     window.location.href="services/communication/communication.html";
 });
 
+let teckBox = document.getElementById("teckBox");
+teckBox.addEventListener("click", function(){
+    window.location.href="News/news.html";
+});
+
 // ENTERTAINMENT 
 
 let movies = document.getElementById("movies");

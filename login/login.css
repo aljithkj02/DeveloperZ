@@ -120,7 +120,7 @@ section .content-box .form-box .remember{
     margin-bottom: 10px;
     color: #607d8b;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 14px; 
     display: flex;
     align-items: center;
 }
@@ -172,7 +172,12 @@ section .content-box .form-box .sci li i{
     font-size: 25px;
 }
 
-
+#min-pass, #space{
+    display: none;
+    color: red;
+    margin: 10px 0;
+    font-size: 14px;
+}
 
 
 

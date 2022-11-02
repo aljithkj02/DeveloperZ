@@ -47,8 +47,12 @@ communication.addEventListener("click", function(){
     window.location.href="services/communication/communication.html";
 });
 
-
+let logic = document.getElementById("logic");
+logic.addEventListener("click", function(){
+    window.location.href="services/logic/logic.html";
 });
+
+
 
 // ENTERTAINMENT 
 

@@ -25,6 +25,12 @@ html{
     z-index: 1000;
 }
 
+#logout{
+    display: none;
+    color: white;
+    text-decoration: none;
+}
+
 .navbar-toggler{
     background-color: white;
 }

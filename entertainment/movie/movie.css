@@ -27,6 +27,12 @@ html{
     background-color: white;
 }
 
+#logout{
+    display: none;
+    color: white;
+    text-decoration: none;
+}
+
 .nav-link{
     color: white;
     font-size: 17px;

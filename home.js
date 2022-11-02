@@ -1,3 +1,4 @@
+
 // NAVBAR 
 var navBar = document.querySelector("nav");
 window.onscroll = function (){
@@ -47,9 +48,7 @@ communication.addEventListener("click", function(){
     window.location.href="services/communication/communication.html";
 });
 
-let logic = document.getElementById("logic");
-logic.addEventListener("click", function(){
-    window.location.href="services/logic/logic.html";
+
 });
 
 
@@ -60,5 +59,7 @@ let movies = document.getElementById("movies");
 movies.addEventListener("click", function(){
     window.location.href="entertainment/movie/movie.html";
 });
+
+
 
 

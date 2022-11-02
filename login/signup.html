@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head> 
         <title>Sign Up</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,15 +20,17 @@
                     <form>
                         <div class="input-box">
                             <span>Username</span>
-                            <input type="text" name="" value="">
+                            <input type="text" id="name" name="" value="" required>
                         </div>
                         <div class="input-box">
                             <span>Email</span>
-                            <input type="email" name="" value="">
+                            <input type="email" id="email" name="" value="" required>
                         </div>
                         <div class="input-box">
                             <span>Password</span>
-                            <input type="password" name="" value="">
+                            <input type="password" id="pass" name="" value="" required>
+                            <p id="min-pass">Enter 6 letters minimum</p>
+                            <p id="space">Don't use spaces in your password </p>
                         </div>
                         <!-- <div class="remember">
                             <input type="checkbox" name="" value=""><label> Remember Me</label>
@@ -51,5 +53,63 @@
             </div>
         </section>
             
+        
     </body>
 </html>
+
+
+<script>
+    let form = document.querySelector("form");
+    form.addEventListener("submit", ()=> {
+        event.preventDefault();
+        let space = document.getElementById("space");
+        let name = document.getElementById("name");
+        let email = document.getElementById("email");
+        let pass = document.getElementById("pass");
+
+        
+        let val = pass.value.length;
+        if(val < 6){
+            return;
+        } 
+
+        if(pass.value.includes(" ")){
+            space.style= "display: block";
+            return;
+        }else{
+            space.style= "display: none";
+        }
+
+        let data = JSON.parse(localStorage.getItem("profile")) || [];
+        let flag = true;
+        data.map((elem, i)=> {
+            if(email.value === elem.email){
+                alert("Already Exist");
+                flag = false;
+            }
+        });
+
+        if(flag){
+            let obj = {
+                name: name.value,
+                email: email.value,
+                pass: pass.value
+            }
+            data.push(obj);
+            localStorage.setItem("profile", JSON.stringify(data));
+            localStorage.setItem("user", true);
+            localStorage.setItem("userName", obj.name);
+            window.location.href = "../index.html";
+            alert("Successfully Signed Up");
+        }
+    });
+
+    
+    let pass = document.getElementById("pass");
+    pass.addEventListener("keyup", ()=> {
+        let val = pass.value.length;
+        let passP = document.getElementById("min-pass");
+        if(val < 6) passP.style = "display: block";
+        if(val >= 6)  passP.style = "display: none";
+    });
+</script>

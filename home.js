@@ -3,7 +3,7 @@
 var navBar = document.querySelector("nav");
 window.onscroll = function (){
     var top = window.scrollY;
-    console.log(top)
+    // console.log(top)
     if(top > 100){
         navBar.style="background: url('img/bg3.jpg'); transition: 0.5s";
     }else{
@@ -48,8 +48,16 @@ communication.addEventListener("click", function(){
     window.location.href="services/communication/communication.html";
 });
 
-
+let dsa = document.getElementById("dsa");
+dsa.addEventListener("click", function(){
+    window.location.href="services/dsa/dsa.html";
 });
+
+let logic = document.getElementById("logic");
+logic.addEventListener("click", function(){
+    window.location.href="services/logic/logic.html";
+});
+
 
 
 

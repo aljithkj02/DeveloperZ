@@ -49,6 +49,12 @@ html{
     /* background-color: white; */
 }
 
+#logout{
+    display: none;
+    color: white;
+    text-decoration: none;
+}
+
 #navbarSupportedContent > a{
     margin: auto;
 }

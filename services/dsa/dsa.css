@@ -152,7 +152,52 @@ hr{
 
 
 
+#box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+}
 
+#box  div{
+    padding: 10px 0;
+    margin: 0 1px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77, 0.2) 0px 20px 30px -10px;
+}
+
+#box a{
+    text-decoration: none;
+}
+
+#box  div h4{
+    margin: 0;
+}
+
+#box  a:nth-child(1) div{
+    background-color: rgba(172, 255, 47, 0.887);
+}
+#box  a:nth-child(1):hover div{
+    background-color: greenyellow;
+    box-shadow: rgb(38, 57, 77, 0.4) 0px 20px 30px -10px;
+}
+
+#box  a:nth-child(2) div{
+    background-color: rgba(47, 206, 255, 0.903);
+}
+#box  a:nth-child(2):hover div{
+    background-color: rgb(47, 206, 255);
+    box-shadow: rgb(38, 57, 77, 0.4) 0px 20px 30px -10px;
+}
+
+#box  a:nth-child(3) div{
+    background-color: rgba(255, 47, 141, 0.899);
+}
+#box  a:nth-child(3):hover div{
+    background-color: rgb(255, 47, 141);
+    box-shadow: rgb(38, 57, 77, 0.4) 0px 20px 30px -10px;
+}
 
 
 
@@ -383,4 +428,11 @@ footer .containerDiv .underLine span{
         word-spacing: 4px;
     }
     
+    #box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #box a{
+        margin: 2px 0;
+    }
 }

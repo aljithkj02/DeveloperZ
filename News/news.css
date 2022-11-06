@@ -13,12 +13,16 @@ body{
     padding: 0 20px;
 }
 
-
 /* NAVBAR  */
 .navbar{
-    background-color: #111626;
-    padding: 3px;
-    z-index: 1;
+    background-position: center;
+    background-color: #ae8bf5;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.navbar-toggler{
+    background-color: white;
 }
 
 .nav-link{
@@ -30,8 +34,21 @@ body{
     margin: 0 10px;
 }
 
+.navbar-nav > li a:hover{
+    color: black;
+}
+
+.navbar-nav > li a:active{
+    color: #ae8bf5;
+}
+
 .logo{
     width: 13rem;
+    /* background-color: white; */
+}
+
+.nav-sign-in{
+    background-color: white;
 }
 
 #navbarSupportedContent > a{
@@ -40,22 +57,27 @@ body{
 
 #navbarSupportedContent > a > button{
     padding: 7px 15px;
-    border: 1px solid #fff;
+    border: 1px solid #ae8bf5;
     border-radius: 20px;
-    color: gray;
+    color: #fffdfd;
+    transition: 0.1s;
+    background-color: #ae8bf5;
+    border: 2px solid white;
 }
+
 
 #navbarSupportedContent > a > button:hover{
     border: 2px solid #fff;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: #ae8bf5;
     color: #fff;
+    font-size: 18px;
 }
 
 #navbarSupportedContent > form{
     display: flex;
     align-items: center;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     padding: 2px 10px;
 }
 
@@ -63,14 +85,9 @@ body{
     border: none;
     outline: none;
     box-shadow: none;
-    background-color: transparent;
-    color: #fff;
+    /* background-color: transparent; */
+    /* color: #fff; */
 }
-
-#navbarSupportedContent > form > i{
-    color: #fff;
-}
-
 
 
 /********************************/
@@ -128,7 +145,7 @@ body{
 .reco-news-head{
     position: relative;
     text-align: left;
-    left: 115px;
+    left: 100px;
     top: 50px; 
     font-weight: 600;
     width: 50%;
@@ -138,9 +155,8 @@ body{
 
 .recommended-news-container{
     position: relative;
-    left: 60.4%;
+    margin: auto;
     top: 70px;
-    transform: translate(-60%, 0);
     width: 87%;
     display: grid;
     grid-template-columns: auto auto auto auto;

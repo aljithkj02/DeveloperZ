@@ -58,6 +58,11 @@ logic.addEventListener("click", function(){
     window.location.href="services/logic/logic.html";
 });
 
+let teckBox = document.getElementById("teckBox");
+teckBox.addEventListener("click", function(){
+    window.location.href="News/news.html";
+});
+
 
 
 
